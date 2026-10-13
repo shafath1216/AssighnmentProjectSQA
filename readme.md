@@ -8,7 +8,7 @@ This repository contains UI automation tests using Playwright and API automation
 - **API Automation:** Postman collection executed using Newman.
 - **Test Scenarios:** Locked-out user, standard user, performance glitch user, and API request validation.
 
-## Getting Started
+## How to Run
 
 ### 1. Clone the Repository
 
