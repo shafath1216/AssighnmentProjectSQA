@@ -12,20 +12,17 @@ export default class CheckOutOverviewPage extends BasePage{
 
     async getActualProductArray(){
        await this.productlocator.first().waitFor({
-        state: "visible",
-        timeout: 15000
+        state: "visible"
     });
 
-    // Wait until the checkout products actually render
+    
     await this.productlocator.first().waitFor({
-        state: "visible",
-        timeout: 15000
+        state: "visible"
     });
 
     this.totalProducts = await this.productlocator.count();
 
-    console.log("Overview URL:", this.page.url());
-    console.log("Overview product count:", this.totalProducts);
+
 
     this.actualProductArray = [];
 
