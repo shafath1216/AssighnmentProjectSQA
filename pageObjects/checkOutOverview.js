@@ -11,12 +11,8 @@ export default class CheckOutOverviewPage extends BasePage{
     }
 
     async getActualProductArray(){
-       await this.productlocator.first().waitFor({
-        state: "visible"
-    });
 
-    
-    await this.productlocator.first().waitFor({
+      await this.productlocator.first().waitFor({
         state: "visible"
     });
 
