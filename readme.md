@@ -66,7 +66,7 @@ npx newman run APIPostmanFolder/APIAssignmentQuestions.postman_collection
 
 Generate an HTML API test report:
 
-npx newman run APIPostmanFolder/APIAssignmentQuestions.postman_collection -r cli,htmlextra --reporter-htmlextra-export reports/APIAssignmentReport.html
+npx newman run APIPostmanFolder/APIAssignmentQuestions.postman_collection -r cli,htmlextra --reporter-htmlextra-export APIAssignmentReport.html
 
 Requirements
 
